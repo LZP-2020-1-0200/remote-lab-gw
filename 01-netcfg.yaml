@@ -1,6 +1,7 @@
 # datne /etc/netplan/01-netcfg.yaml
 # neaizmirsti apt install wpasupplicant
 # pareizos nosaukumus atrodam ar ls /sys/class/net/
+# trail=pogas_gladrewrox
 network:
   ethernets:
     enp1s0:

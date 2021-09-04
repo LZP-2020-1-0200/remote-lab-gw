@@ -12,3 +12,7 @@ ufw allow ssh
 
 nano /etc/default/ufw
 nano /etc/ufw/before.rules
+
+
+https://upcloud.com/community/tutorials/configure-iptables-ubuntu/
+

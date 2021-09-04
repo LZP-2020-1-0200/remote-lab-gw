@@ -1,5 +1,5 @@
 # remote-lab-gw
-# trail=pogas_gladrewrox
+trail=pogas_gladrewrox
 Attālināta vārteja uz laboratorijas tīkla iekārtām
 
 apt install wpasupplicant
@@ -15,4 +15,7 @@ nano /etc/ufw/before.rules
 
 
 https://upcloud.com/community/tutorials/configure-iptables-ubuntu/
+
+
+iptables --table nat --append POSTROUTING --out-interface wlo1 -j MASQUERADE
 

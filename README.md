@@ -21,4 +21,4 @@ apt install isc-dhcp-server
 
 nano /etc/dhcp/dhcpd.conf
 
-
+nano /etc/default/isc-dhcp-server

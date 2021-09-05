@@ -15,4 +15,4 @@ iptables --table nat --append POSTROUTING --out-interface wlo1 -s 10.0.0.0/24 -j
 
 apt install iptables-persistent
 
-curl -s https://install.zerotier.com | bash
+apt install isc-dhcp-server

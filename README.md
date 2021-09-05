@@ -24,3 +24,7 @@ nano /etc/dhcp/dhcpd.conf
 nano /etc/default/isc-dhcp-server
 
 systemctl restart isc-dhcp-server.service
+
+nano /etc/systemd/logind.conf
+
+service systemd-logind restart

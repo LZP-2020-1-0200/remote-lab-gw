@@ -13,5 +13,6 @@ nano /etc/sysctl.conf
 https://upcloud.com/community/tutorials/configure-iptables-ubuntu/
 
 
-iptables --table nat --append POSTROUTING --out-interface wlo1 --in-interface enp1s0 -j MASQUERADE
+
+iptables --table nat --append POSTROUTING --out-interface wlo1 -s 10.0.0.0/24 -j MASQUERADE
 

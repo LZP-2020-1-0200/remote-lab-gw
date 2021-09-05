@@ -15,4 +15,10 @@ iptables --table nat --append POSTROUTING --out-interface wlo1 -s 10.0.0.0/24 -j
 
 apt install iptables-persistent
 
+https://ubuntu.com/server/docs/network-dhcp
+
 apt install isc-dhcp-server
+
+nano /etc/dhcp/dhcpd.conf
+
+

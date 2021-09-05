@@ -1,21 +1,17 @@
 # remote-lab-gw
-trail=pogas_gladrewrox
 Attālināta vārteja uz laboratorijas tīkla iekārtām
 
+trail=pogas_gladrewrox
+
 apt install wpasupplicant
+
 nano /etc/netplan/01-netcfg.yaml
 nano /etc/sysctl.conf
 
-https://ubuntu.com/server/docs/security-firewall
-
-ufw allow ssh
-
-nano /etc/default/ufw
-nano /etc/ufw/before.rules
 
 
 https://upcloud.com/community/tutorials/configure-iptables-ubuntu/
 
 
-iptables --table nat --append POSTROUTING --out-interface wlo1 -j MASQUERADE
+iptables --table nat --append POSTROUTING --out-interface wlo1 --in-interface enp1s0 -j MASQUERADE
 

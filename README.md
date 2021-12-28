@@ -3,6 +3,14 @@ Attālināta vārteja uz laboratorijas tīkla iekārtām
 
 trail=pogas_gladrewrox
 
+apt update
+
+apt upgrade
+
+timedatectl list-timezones | grep Riga
+
+timedatectl set-timezone Europe/Riga
+
 apt install wpasupplicant
 
 nano /etc/netplan/01-netcfg.yaml

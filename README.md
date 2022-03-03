@@ -11,6 +11,9 @@ timedatectl list-timezones | grep Riga
 
 timedatectl set-timezone Europe/Riga
 
+nano /etc/systemd/timesyncd.conf
+NTP=lv.pool.ntp.org
+
 apt install wpasupplicant
 
 nano /etc/netplan/01-netcfg.yaml

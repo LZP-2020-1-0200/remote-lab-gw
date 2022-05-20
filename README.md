@@ -39,3 +39,5 @@ systemctl restart isc-dhcp-server.service
 nano /etc/systemd/logind.conf
 
 service systemd-logind restart
+
+touch ~/.hushlogin

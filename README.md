@@ -7,6 +7,8 @@ apt update
 
 apt upgrade
 
+hostnamectl set-hostname newhostname
+
 timedatectl list-timezones | grep Riga
 
 timedatectl set-timezone Europe/Riga

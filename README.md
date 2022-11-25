@@ -43,3 +43,7 @@ nano /etc/systemd/logind.conf
 service systemd-logind restart
 
 touch ~/.hushlogin
+
+curl -s https://install.zerotier.com | bash
+
+zerotier-cli join networkid9abcdef

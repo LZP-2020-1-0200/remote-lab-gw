@@ -49,3 +49,5 @@ curl -s https://install.zerotier.com | bash
 zerotier-cli join networkid9abcdef
 
 sudo apt install lamp-server^
+
+mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql

@@ -46,6 +46,8 @@ touch ~/.hushlogin
 
 curl -s https://install.zerotier.com | bash
 
+apt install bind9
+
 zerotier-cli join networkid9abcdef
 
 apt install lamp-server^
